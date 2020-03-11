@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -93,17 +94,23 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+
  /* begin css */
 
- @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
  body{
-     background-color: #333;
+     background-color: #1b262c;
      height: 100%; 
      /* background-position: center; */
      background-repeat: no-repeat;
      background-size: cover;
      font-family: 'Montserrat';
+}
+#profile-pic{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
 }
 .main-menu{
     position: relative;
